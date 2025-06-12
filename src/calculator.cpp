@@ -22,3 +22,9 @@ int Calculator::Factorial (int n)
     else
         return 1;
 }
+
+
+int Calculator::Div (double numerator, double denominator)
+{
+      return numerator / denominator;
+}
